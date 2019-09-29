@@ -1,11 +1,9 @@
 # hw3
 
-  1. Lines 10 & 11, 
+  1. Lines 10 & 11, respectively.
 
      stroke(random(60, 70), 100, 90);
      line(x, height-10, x+random(-10, 10), height-10-random(h));
-  
-  respectively.
   
   2. Lines 21 - 25, dictate that a random number shall be determined between 1 & 100, and if that number arrives at exactly     100.0 and only 100.0 so that it qualifies as greater than 99.9, the 'if' statement determines that the lawnmower will         resetthe screen to blank by covering all but the bottom 15 pixels of the canvas, and sets the value of var h to 10.
   
